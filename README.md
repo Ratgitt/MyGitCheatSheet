@@ -66,15 +66,19 @@
 
 ----
 
-1. - `ssh-keygen -t ed25519 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
+1. Для генерации SSH-пары можно использовать программу `ssh-keygen`. Откройте терминал и введите следующую команду:
+   - `ssh-keygen -t ed25519 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
 
-- или
+   или
 
-- `ssh-keygen -t rsa -b 4096 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
+   - `ssh-keygen -t rsa -b 4096 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
 
-2. `> Enter a file in which to save the key (C:\Users\<имя_пользователя>\.ssh\):[Press enter]`
+2. Укажите место хранения ключей. Простой вариант — сделать домашний каталог пользователя путём по умолчанию. Для этого нажмите `Enter`.
 
-3. - `> Enter passphrase (empty for no passphrase): [Type a passphrase]`
+`> Enter a file in which to save the key (C:\Users\<имя_пользователя>\.ssh\):[Press enter]`
+
+3. Программа запросит **кодовую фразу** (англ. passphrase) для доступа к SSH-ключу. Вы можете оставить поле пустым. Для этого нажмите `Enter`, а затем ещё раз `Enter` для подтверждения.
+   - `> Enter passphrase (empty for no passphrase): [Type a passphrase]`
    - `> Enter same passphrase again: [Type passphrase again]`
 
 ## Привязываем SSH-ключ к GitHub
