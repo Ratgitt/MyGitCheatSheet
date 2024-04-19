@@ -66,14 +66,16 @@
 
 ----
 
-1. `ssh-keygen -t ed25519 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
+1. - `ssh-keygen -t ed25519 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
 
-или
+- или
 
-`ssh-keygen -t rsa -b 4096 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
+- `ssh-keygen -t rsa -b 4096 -C "электронная почта, к которой привязан ваш аккаунт на GitHub"`
+
 2. `> Enter a file in which to save the key (C:\Users\<имя_пользователя>\.ssh\):[Press enter]`
-3. `> Enter passphrase (empty for no passphrase): [Type a passphrase]`
-   `> Enter same passphrase again: [Type passphrase again]`
+
+3. - `> Enter passphrase (empty for no passphrase): [Type a passphrase]`
+   - `> Enter same passphrase again: [Type passphrase again]`
 
 ## Привязываем SSH-ключ к GitHub
 
