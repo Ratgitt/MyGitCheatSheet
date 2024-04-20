@@ -158,7 +158,7 @@
 
 ### Пример `.gitignore` файла:
 
-```
+```python
 *.log
 !debug.log
 /debug.bar
